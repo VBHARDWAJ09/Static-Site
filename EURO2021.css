@@ -1,0 +1,294 @@
+* {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+#loc {
+    text-decoration: underline;
+    background-color: #ebebf9db;
+    border-radius: 30px;
+    padding: 3px 0px;
+}
+
+.main-heading {
+    margin-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.primary-heading {
+    margin: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.grp-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 25px;
+    padding-bottom: 20px;
+}
+
+.pa {
+    margin: 25px;
+    font-size: 1.2rem;
+}
+
+.co {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#france1984 img {
+    margin: 0px 134px;
+}
+
+#strip {
+    display: flex;
+    background-color: skyblue;
+    justify-content: center;
+}
+
+#navbar {
+    font-size: 1.6rem;
+    height: 120px;
+    display: flex;
+    position: relative;
+}
+
+#logo {
+    margin: 5px 10px;
+}
+
+#logo img {
+    height: 100px;
+    width: 110px;
+    border-radius: 30px;
+}
+
+#menu {
+    margin: 40px -10px;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li a {
+    color: blue;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+#menu ul li a:hover {
+    color: blue;
+    background-color: wheat;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 400px;
+    height: 400px;
+}
+
+#home p {
+    color: black;
+}
+
+#home h3 {
+    color: black;
+}
+
+#home::before {
+    content: "";
+    background: url('images/Football-bc6.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#about {
+    background-color: rgb(154, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    border-radius: 70px;
+    margin: 5px auto;
+    margin-top: 180px;
+    border: 2px solid black;
+}
+
+#about img {
+    height: 140px;
+}
+
+#about p {
+    padding: 20px 30px;
+}
+
+.player {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.player img {
+    height: 400px;
+    margin: 15px 80px;
+    border-radius: 100px;
+    border: 3px solid brown;
+}
+
+.content {
+    background: rgb(151, 186, 226);
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 390px;
+    height: 80px;
+    margin: 80px 100px;
+    padding: 100px 50px;
+}
+
+#bale {
+    margin: 80px 60px;
+}
+
+#Mbappe {
+    margin: 70px 30px;
+}
+
+#Lewandowski {
+    margin: 70px 50px;
+}
+
+#benz {
+    margin: 15px 40px;
+}
+
+#winners {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+
+.list {
+    /* border:2px solid green; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+}
+
+.win {
+    margin: 12px 20px;
+    width: 350px;
+    border: 2px solid brown;
+    background-color: rgb(236 202 132);
+    border-radius: 30px;
+}
+
+.win img {
+    height: 100px;
+    margin-left: 90px;
+}
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 150px;
+}
+
+.groups {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 100px;
+}
+
+.group {
+    background-color: #f5c367;
+    margin: 10px 10px;
+    padding: 45px 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.group ul {
+    list-style: circle;
+    padding: 3px 15px;
+}
+
+#points-table {
+    margin: 100px 0px;
+}
+
+.table {
+    margin: 45px;
+    display: grid;
+    grid-template-columns: 620px 620px;
+    grid-gap: 25px;
+}
+
+.grup {
+    background-color: #90d2d2;
+    margin: 10px 35px;
+    padding: 45px 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.grup table {
+    text-align: center;
+}
+
+#fixture table {
+    background-color: wheat;
+    margin: 40px 115px;
+    text-align: center;
+}
+
+.Kno table {
+    margin: 40px 120px;
+    text-align: center;
+    background-color: wheat;
+}
+
+#stat-table table {
+    margin: 50px auto;
+    background-color: #fbedae;
+    text-align: center;
+}
+
+.currect {
+    background-color: rgb(103 247 103);
+}
+
+.wrong {
+    background-color: #fd4949;
+}
